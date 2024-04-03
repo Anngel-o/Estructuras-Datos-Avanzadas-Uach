@@ -1,0 +1,31 @@
+Altura ideal O(log n)
+Peor de los casos O(n)
+Mejor de los casos O(log n)
+
+Un árbol binario se dice perfectamente balanceado si:
+-- Es un árbol lleno
+-- Todas sus hojas se encuentran en el último o antepenúltimo nivel
+
+AVL Adelson Velskii – Landis (1962)
+Los árboles AVL están siempre balanceados.
+-- La altura de sus ramas no difiere en más de una unidad
+-- Costo se mantiene en O (log n)
+
+
+RED BLACK TREES
+-- También es un árbol “auto-balanceado”
+-- No tiene un requisito de equilibrio tan rígido.
+-- La búsqueda en promedio es más lenta que el AVL
+-- La  inserción y eliminación son más rápidas que el AVL
+
+Los nodos nos negros o rojos, los recién insertados son rojos.
+
+En la búsqueda, inserción y eliminación garantiza un costo en el peor de los casos de O(log n)
+
+Su altura máxima será de 2 log (n+1)
+Todos los nodos rojos deben de tener solo hijos negros
+
+Esta mejor balanceado
+Tiene mejores tiempos de inserción y eliminación
+Tiene mejor tiempo de búsqueda
+

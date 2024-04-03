@@ -1,0 +1,29 @@
+FACTOR DE RAMIFICACIÓN
+Número de hijos de un nodo.
+
+PROFUNDIDAD 
+Número de enlaces (distancia) desde la raíz al nodo.
+
+ALTURA
+Del árbol: profundidad de su nodo más profundo.
+Del nodo: mayor cantidad de enlaces de ese nodo a una hoja.
+
+SUCESOR
+El sucesor de un nodo es el menor de todos aquellos que son mayores al nodo a borrar.
+
+La altura de un árbol determina:
+la eficiencia de la mayoría de las operaciones definidas sobre él.
+
+ÁRBOL LLENO
+Un árbol binario lleno, es aquel en que cada nodo, tiene exactamente cero o dos hijos.
+
+ÁRBOL COMPLETO 
+Es aquel en que todos los niveles (a excepción del último), están llenos (todos los nodos tienen dos hijos). (se llena de izquierda a derecha).
+
+MÍNIMO
+Se encuentra en el nodo situado más a la izquierda. Y el MÁXIMO el nodo más a la derecha.
+
+ELIMINAR
+El abuelo adopta al hijo del nodo eliminado.
+
+Altura = log (n+1)
